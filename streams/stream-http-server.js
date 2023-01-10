@@ -1,6 +1,5 @@
 import http from 'node:http'
 import { Transform } from 'node:stream'
-import fetch from 'node:'
 
 class InverseNumberStream extends Transform {
     _transform(chunk, encoding, callback) {
